@@ -10,4 +10,4 @@ r = requests.get(url + query, headers = headers)
 
 soup = BeautifulSoup(r.text, 'html.parser')
 
-print(soup)
+print( soup('table')[3].get_text(',', strip=True) )
