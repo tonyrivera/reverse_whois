@@ -7,7 +7,7 @@
 `reverse_whois.py -i foo@bar.com`
 
 ### Output
-`Domain Name  
+Domain Name  
 afinitech.net  
 arthurmeschian.com  
 athedral.net  
@@ -20,4 +20,4 @@ obbtech.com
 siliconvalleyoddfellows.org  
 spackle.today  
 stikic.me  
-stumblingmedia.us`
+stumblingmedia.us  
