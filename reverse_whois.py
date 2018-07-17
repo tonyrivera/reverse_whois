@@ -9,7 +9,7 @@ url = 'https://viewdns.info/reversewhois/?q='
 headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36'}
 
 # Command Line Interface
-parser = argparse.ArgumentParser(description='Reverse whois from registrant name or email address.')
+parser = argparse.ArgumentParser(description='Reverse Whois Lookup')
 parser.add_argument("-i", "--input", help='enter an email or full name', type=str, required=True)
 args = parser.parse_args()
 
