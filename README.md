@@ -1,3 +1,7 @@
 # reverse_whois
 
-usage: `reverse_whois.py -i foo@bar.com`
+## Installation
+###`pip install -r requirements.txt`
+
+##usage: 
+###`reverse_whois.py -i foo@bar.com`
