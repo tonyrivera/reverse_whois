@@ -10,7 +10,7 @@ headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 # Command Line Interface
 parser = argparse.ArgumentParser(description='Reverse Whois Lookup')
-parser.add_argument("-i", "--input", help='enter an email or full name', type=str, required=True)
+parser.add_argument("-i", "--input", help='Email or Full Name', required=True)
 args = parser.parse_args()
 
 r = requests.get(url + args.input, headers=headers)
