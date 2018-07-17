@@ -6,7 +6,7 @@ import argparse
 # Config
 # URL to scrape reverse whois data
 url = 'https://viewdns.info/reversewhois/?q='
-headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36'}
+headers = {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0'}
 
 # Command Line Interface
 parser = argparse.ArgumentParser(description='Reverse Whois Lookup')
