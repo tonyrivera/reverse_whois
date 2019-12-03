@@ -30,4 +30,4 @@ stumblingmedia.us
 ### Cleanup
 `docker container prune`
 
-`docker image rm reversewhois:1.01`
+`docker image rm reversewhois:1.00`
