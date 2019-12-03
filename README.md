@@ -26,3 +26,8 @@ siliconvalleyoddfellows.org
 spackle.today  
 stikic.me  
 stumblingmedia.us  
+
+### Cleanup
+`docker container prune`
+
+1docker image rm reversewhois:1.01
