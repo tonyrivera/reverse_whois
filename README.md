@@ -6,6 +6,10 @@
 ### Usage 
 `reverse_whois.py -i foo@bar.com`
 
+### Docker build and run instructions
+`docker build -t reversewhois:1.0 .`
+`docker run -it reversewhois:1.0 -i foo@bar.com`
+
 ### Output
 Domain Name  
 afinitech.net  
